@@ -294,6 +294,9 @@ img{
 .skills__css{
   width: 75%;
 }
+.skills__angular{
+  width: 50%;
+}
 .skills__js{
   width: 55%;
 }
