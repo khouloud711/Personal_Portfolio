@@ -5,6 +5,7 @@ import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ContactComponent } from './contact/contact.component';
 import { WorkComponent } from './work/work.component';
+import { CertificateComponent } from './certificate/certificate.component';
 
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'skills', component: SkillsComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'work', component: WorkComponent },
+  { path: 'certificate', component: CertificateComponent }
 
 
 ];
@@ -23,5 +25,5 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-export const routingComponents = [HomeComponent,ContactComponent,
+export const routingComponents = [HomeComponent,ContactComponent,CertificateComponent,
                                   SkillsComponent,AboutComponent,WorkComponent]

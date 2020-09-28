@@ -10,6 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { SkillsComponent } from './skills/skills.component';
 import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
+import { CertificateComponent } from './certificate/certificate.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './footer/footer.component';
     SkillsComponent,
     AboutComponent,
     FooterComponent,
-    routingComponents
+    routingComponents,
+    CertificateComponent
   ],
   imports: [
     BrowserModule,
